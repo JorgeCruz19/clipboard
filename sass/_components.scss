@@ -1,0 +1,27 @@
+/* Buttons */
+.btn {
+	display: inline-block;
+	border-radius: 80px;
+	padding: 0.8rem 2rem;
+	color: #ffffff;
+	width: 100%;
+	margin-bottom: 1rem;
+	@media screen and (min-width: 768px) {
+		width: auto;
+	}
+}
+.btn-primary {
+	background-color: $bg-color1;
+	box-shadow: inset 0px -2px 2px 1px #269c86, 1px 6px 10px 0px #269c864d;
+	margin-right: 20px;
+}
+.btn-secondary {
+	background-color: $bg-color2;
+	box-shadow: inset 0px -2px 2px 1px #5261d8, 1px 6px 10px 0px #5261d84d;
+}
+.btn-primary:hover {
+	opacity: 0.9;
+}
+.btn-secondary:hover {
+	opacity: 0.9;
+}
